@@ -117,4 +117,21 @@ body{
 .skill-container{
     display: flex;
     justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    gap: 20px;
+}
+.skil-s{
+    padding: 30px;
+    background-color: #ebebeb;
+    
+}
+.skil-s:hover{
+ 
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 10px;
+}
+.skil-s-paragraph{
+    color: #757575;
 }
