@@ -4,6 +4,9 @@ body{
         font-family:sans-serif;
         width: 100%;
 }
+.main-container{
+    width: 100%;
+}
 
 .header-container{
     background-image: url("/images/header_bg.png"),url("/images/developer.png");
