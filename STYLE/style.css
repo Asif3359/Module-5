@@ -117,7 +117,7 @@ body{
 }
 .skill-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 200px;
     margin-right: 200px;
     gap: 20px;
