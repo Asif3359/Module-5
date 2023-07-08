@@ -1,6 +1,7 @@
 body{
         margin: 0px;
         padding: 0px;
+        font-family:sans-serif;
 }
 
 .header-container{
@@ -17,7 +18,7 @@ body{
     background-color: rgb(101, 144, 72)45, 245;
     padding-left: 200px;
     padding-right: 200px;
-    font-family:sans-serif;
+    
     
     
 }
@@ -52,14 +53,20 @@ body{
     background-color: #dd5c0093;
 
 }
+.header-photo-section{
+    margin: 0px;
+}
 .header-img{
     width: 500px;
+    border: 1px solid gray;
+    border-radius: 300px;
+    padding:10px;
 }
 .header-banner{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0px 100px;
+    justify-content: space-between;
+    margin: 0px 200px;
 
 }
 .header-banner-buttone2{
@@ -79,4 +86,35 @@ body{
 .header-paragraph{
     color:  #757575;
     font-size: 18px;
+}
+.about-container{
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    background: #efffb37d;
+    padding: 60px
+    
+
+}
+.about-contact-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-paragraph{
+    color: #636363;
+    text-align: center;
+    
+}
+.about-title{
+    font-size: 35px;
+    text-align: center;
+}
+.do-container{
+    margin-top: 0px;
+    background-color: white;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
 }
